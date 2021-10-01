@@ -44,18 +44,16 @@
 /* Esercizio 5  */
 
 .ex-5-square {
-  transition: all 3s;
+  transition: all 2s;
   cursor: pointer;
 }
 
 .ex-5-square:hover {
-  width: 80px;
-  height: 80px;
+  transform: scale(2);
 }
 
 .ex-5-square:active {
-  width: 20px;
-  height: 20px;
+  transform: scale(0.5);
 }
 
 /* Esercizio 6 */
@@ -94,7 +92,7 @@
 .ex-9-img:hover {
   filter: grayscale(80%);
   border-radius: 20px;
-  width: 500px;
+  transform: scale(1.5);
 }
 
 /* Esercizio 10 */
@@ -112,11 +110,23 @@
 /* Esercizio 11 */
 
 .ex-11-icon:hover {
-  animation: spin11 1s linear;
+  animation: spin11 5s linear;
 }
 
 @keyframes spin11 { 
   75% { 
     transform:rotate(360deg); 
-  } 
+  }  
 }
+
+/* Esercizio 12 */
+
+.ex-12-icon:hover .ex-12-top-white {
+  animation: ciao12 1s linear;
+}
+
+.ex-12-icon:hover .ex-12-bottom-white {
+  animation: ciao12 1s linear;
+}
+
+
