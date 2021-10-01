@@ -9,3 +9,12 @@
 }
 
 /* Esercizio 2  */
+
+.ex-2-square {
+  transition: all 4s;
+  cursor: pointer;
+}
+
+.ex-2-square:active {
+  width: 100%;
+}
