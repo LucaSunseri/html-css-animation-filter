@@ -84,3 +84,39 @@
   filter: grayscale(80%);
   border-radius: 20px;
 }
+
+/* Esercizio 9 */
+
+.ex-9-img {
+  transition: all 2s;
+}
+
+.ex-9-img:hover {
+  filter: grayscale(80%);
+  border-radius: 20px;
+  width: 500px;
+}
+
+/* Esercizio 10 */
+
+.ex-10-icon {
+  animation: spin10 1s linear infinite;
+}
+
+@keyframes spin10 { 
+  100% { 
+    transform:rotate(360deg); 
+  } 
+}
+
+/* Esercizio 11 */
+
+.ex-11-icon:hover {
+  animation: spin11 1s linear;
+}
+
+@keyframes spin11 { 
+  75% { 
+    transform:rotate(360deg); 
+  } 
+}
