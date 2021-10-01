@@ -110,23 +110,42 @@
 /* Esercizio 11 */
 
 .ex-11-icon:hover {
-  animation: spin11 5s linear;
+  animation: spin11 1s linear;
 }
 
 @keyframes spin11 { 
-  75% { 
-    transform:rotate(360deg); 
+  85% {
+    transform: rotate(270deg);
   }  
 }
 
 /* Esercizio 12 */
 
-.ex-12-icon:hover .ex-12-top-white {
-  animation: ciao12 1s linear;
+.ex-12-button:hover .ex-12-top-white {
+  animation: spin12a 2s linear;
 }
 
-.ex-12-icon:hover .ex-12-bottom-white {
-  animation: ciao12 1s linear;
+@keyframes spin12a {
+  0% {
+      left: 10%;
+  }
+  50% {
+      left: 60%;
+  }
 }
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: spin12b 2s linear;
+}
+
+@keyframes spin12b {
+  0% {
+      right: 10%;
+  }
+  50% {
+      right: 60%;
+  }
+}
+
 
 
